@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+body{
+    background-image: url(/pasta/imagens/tentativa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header a {
+    text-decoration: none;
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.3); 
+    height: 40px;
+    display: block;
+    padding: 10px;
+
+}
+header:hover {
+    background-color: rgba(0, 0, 0, 1); 
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 30px;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    left: 0;
+}
+footer p{
+    color: aliceblue;
+
+}
+
+
+button a{
+    text-decoration: none;
+    left: 50px;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+.botao{
+    display: inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+.botao{
+    border-radius: 400px;
+    background-color: rgba(0, 0, 0, 1); 
+    color: aliceblue;
+
+}
+.botao:hover{
+    background-color: rgb(62, 60, 60);
+    cursor: pointer;
+}
+.botao img{
+    width: 15px;
+    height: auto;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.botao-voltar img{
+    width: 15px;
+    height: auto;
+    vertical-align: middle;
+    height: auto;
+}
+.botao-voltar{
+    display: inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    left: 42%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+.botao-voltar{
+    border-radius: 1000px;
+    background-color: rgba(0, 0, 0, 1); 
+    color: aliceblue;
+
+
+}
+.botao-voltar:hover{
+    background-color: rgb(62, 60, 60);
+    cursor: pointer;
+}
+.discografia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1610px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.album {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    margin-top: 20px;
+    margin: 25px;
+    width: calc(20% - 50px);
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(2, 2, 2, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.album img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.album p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.album:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(255, 252, 252, 0.2);
+}

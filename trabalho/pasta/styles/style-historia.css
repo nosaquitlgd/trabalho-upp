@@ -1,0 +1,171 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilo do body */
+body {
+    background-image: url(/pasta/imagens/tentativa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Estilo do header e navegação */
+header:hover {
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header a {
+    text-decoration: none;
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.3); 
+    height: 60px;
+    display: block;
+    padding: 10px;
+
+}
+header:hover {
+    background-color: rgba(0, 0, 0, 1); 
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+footer p{
+    color: aliceblue;
+}
+
+
+button a{
+    text-decoration: none;
+    left: 50px;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+.botao{
+    display: inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+.botao{
+    border-radius: 400px;
+    background-color: rgba(0, 0, 0, 1); 
+    color: aliceblue;
+
+}
+.botao:hover{
+    background-color: rgb(62, 60, 60);
+    cursor: pointer;
+}
+.botao img{
+    width: 15px;
+    height: auto;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.botao-voltar img{
+    width: 15px;
+    height: auto;
+    vertical-align: middle;
+    height: auto;
+}
+.botao-voltar{
+    display: inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    left: 42%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+.botao-voltar{
+    border-radius: 1000px;
+    background-color: rgba(0, 0, 0, 1); 
+    color: aliceblue;
+
+
+}
+.botao-voltar:hover{
+    background-color: rgb(62, 60, 60);
+    cursor: pointer;
+}
+/* Estilo principal */
+.tela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.biografia {
+    width: 900px;
+    height: auto;
+    color: black;
+    background: rgb(255, 255, 255,0.6);
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(110, 114, 220, 0.8);
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.biografia:hover {
+    width: 900px;
+    height: auto;
+    color: black;
+    background: white;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgb(189, 223, 230);
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.biografia p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.biografia h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}

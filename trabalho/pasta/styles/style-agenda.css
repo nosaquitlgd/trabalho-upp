@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-image: url(/pasta/imagens/tentativa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: aliceblue;
+
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 15px;
+    padding: 12px 0px;
+
+
+}
+
+header a {
+    text-decoration: none;
+    color: azure;
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid #aeb4b7;
+    padding: 9px;
+    text-align: left;
+    color:aliceblue;
+    font-family: "Abel", sans-serif;
+
+}
+h1, h2, h3{
+    color: aliceblue;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.3); 
+    height: 40px;
+    display: block;
+    padding: 10px;
+
+}
+header:hover {
+    background-color: rgb(0, 0, 0); 
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+button a{
+    text-decoration: none;
+    left: 50px;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+.botao{
+    display: inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+.botao{
+    border-radius: 400px;
+    background-color: rgba(0, 0, 0, 1); 
+    color: aliceblue;
+
+}
+.botao:hover{
+    background-color: rgb(62, 60, 60);
+    cursor: pointer;
+}
+.botao img{
+    width: 15px;
+    height: auto;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.botao-voltar img{
+    width: 15px;
+    height: auto;
+    vertical-align: middle;
+    height: auto;
+}
+.botao-voltar{
+    display: inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    left: 42%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+.botao-voltar{
+    border-radius: 1000px;
+    background-color: rgba(0, 0, 0, 1); 
+    color: aliceblue;
+
+
+}
+.botao-voltar:hover{
+    background-color: rgb(62, 60, 60);
+    cursor: pointer;
+}
+.agenda{
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+    justify-content: center;
+    padding: 40px;
+
+}
+.agenda :hover{
+    background-image: linear-gradient(to bottom, rgb(49, 15, 128), rgb(75, 23, 178),rgb(49, 15, 128));
+    transform: translateY(-5px);
+    
+}
+
+.caixa-agenda{
+    padding: 10px;
+    width: 36vh;
+    text-align: center;
+    margin: 20px;
+    right: 60px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, black, rgb(38, 19, 75),black);
+    height: 250px;
+    padding: 20px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgb(255, 255, 255)
+}
+
+
